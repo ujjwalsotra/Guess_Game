@@ -29,11 +29,8 @@ document.querySelector('.check').addEventListener('click',function(){
    if(guess==number)
    {
     document.querySelector('.message').textContent='❤️🔥🔥You win...';
-    /*let high=document.querySelector('.label-highscore').value;
-    if(score>high)
-    {
-        document.querySelector('.label-highscore').textContent=high;
-    }*/
+    document.querySelector('body').style.backgroundColor='#7849fe';
+    document.querySelector('.number').style.width='30rem';
    }
    else
    {
